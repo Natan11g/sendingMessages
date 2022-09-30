@@ -13,6 +13,7 @@
 		EE33C91728E618A800F9B487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE33C91528E618A800F9B487 /* Main.storyboard */; };
 		EE33C91928E618AB00F9B487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE33C91828E618AB00F9B487 /* Assets.xcassets */; };
 		EE33C91C28E618AB00F9B487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE33C91A28E618AB00F9B487 /* LaunchScreen.storyboard */; };
+		EE33C92528E619B700F9B487 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE33C92428E619B700F9B487 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EE33C91828E618AB00F9B487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE33C91B28E618AB00F9B487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE33C91D28E618AB00F9B487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE33C92428E619B700F9B487 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE33C92528E619B700F9B487 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				EE33C90E28E618A800F9B487 /* sendingMessages */,
 				EE33C90D28E618A800F9B487 /* Products */,
+				EE33C92328E619B700F9B487 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				EE33C91D28E618AB00F9B487 /* Info.plist */,
 			);
 			path = sendingMessages;
+			sourceTree = "<group>";
+		};
+		EE33C92328E619B700F9B487 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE33C92428E619B700F9B487 /* MessageUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
